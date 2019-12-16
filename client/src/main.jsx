@@ -1,4 +1,3 @@
-
 let React = require('react');
 let ReactDOM = require('react-dom');
 let fakedata = require('./fakefilters.json');
@@ -43,5 +42,6 @@ fetch('https://api.stg.taskbooker.be/public/graphql', { method:'POST', headers:{
         </div>
     ReactDOM.render(<App2 fakedata={fakedata} />, document.querySelector("#app2"));
 }); 
+
 
 

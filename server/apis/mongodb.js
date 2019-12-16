@@ -23,4 +23,4 @@ const loadContent = async (key) => {
 module.exports = (key) => { 
   let k = key.replace(/\//g, "_").replace(/\./g, "_");
   return Promise.resolve([testdata["content"][k]]);
-} 
+}
